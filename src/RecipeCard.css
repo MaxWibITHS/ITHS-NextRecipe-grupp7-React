@@ -1,0 +1,38 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 206, 189);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1.5%;
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+    border-radius: 3%;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5 rem;
+    color: black;
+}
+
+.card-text{
+    color: black;
+}
+
+.card-button{
+    background-color: rgb(48, 44, 44);
+    border-color: azure;
+    color: azure;
+    margin-top: 1rem;
+}
+
+.card-button:hover{
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
